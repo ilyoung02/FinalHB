@@ -1,0 +1,23 @@
+
+C
+java:S1604I"(Make this anonymous inner class a lambda(ã ñ®úÿÿÿÿ
+>
+java:S1604S"(Make this anonymous inner class a lambda(­½¾‹
+a	java:S101#"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ŞËÅ2
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(èé™
+}	java:S116)"cRename this field "btn_completeTodayWorkout" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊşÂĞøÿÿÿÿ
+u	java:S116*"`Rename this field "workoutTimer_startBtn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛÍÃí
+D
+java:S1659&".Declare "workoutTimerView" on a separate line.(ê†åí
+:
+java:S1659'"$Declare "userId" on a separate line.(ıÒÓ”
+9
+java:S1659*"#Declare "timer" on a separate line.(ÛÍÃí
+‚
+java:S1450)"gRemove the "btn_completeTodayWorkout" field and declare it as a local variable in the relevant methods.(ÊşÂĞøÿÿÿÿ
+j
+java:S1450*"TRemove the "timer" field and declare it as a local variable in the relevant methods.(ÛÍÃí
+z
+java:S1450*"dRemove the "workoutTimer_startBtn" field and declare it as a local variable in the relevant methods.(ÛÍÃí
+E
+java:S1874-"/Remove this use of "Handler"; it is deprecated.(ïóî‘

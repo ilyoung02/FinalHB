@@ -1,0 +1,52 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <!-- 1:1 매칭 버튼과 단기 매칭 버튼을 포함한 LinearLayout -->
+    <LinearLayout
+        android:id="@+id/matching_buttons_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- 1:1 매칭 버튼 -->
+        <Button
+            android:id="@+id/btn_1to1_matching"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="1:1 매칭"
+            android:textColor="@color/button_text_color_selector"
+            android:textSize="18sp" />
+
+        <!-- 단기 매칭 버튼 -->
+        <Button
+            android:id="@+id/btn_short_term_matching"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="단기 매칭"
+            android:textColor="@color/button_text_color_selector"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- 프로필 사진을 슬라이드할 수 있는 ViewPager2 -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/matching_buttons_layout"
+        app:layout_constraintVertical_bias="0.0"
+        android:background="@drawable/profile_background"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

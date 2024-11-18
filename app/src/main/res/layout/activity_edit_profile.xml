@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/profile_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            android:text="내 프로필"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:background="@drawable/box_background"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/change_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="사진 변경"
+        android:textColor="#6795ED"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingBottom="15dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+   <TextView
+        android:id="@+id/workoutGoal_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="# 운동 목표"
+        android:textColor="#000000"
+        android:paddingBottom="5dp"/>
+
+    <Spinner
+        android:id="@+id/workout_goal_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:paddingBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/workout_experience_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="# 운동 경력"
+        android:textColor="#000000"
+        android:paddingBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/workout_experience_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="운동 경력을 입력하세요"
+        android:textColor="#000000"
+        android:background="@android:color/transparent"
+        android:paddingStart="10dp"
+        android:paddingBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/introduction_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="# 소개글"
+        android:textColor="#000000"
+        android:paddingBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/introduction_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="자기소개를 입력하세요"
+        android:textColor="#000000"
+        android:background="@android:color/transparent"
+        android:paddingStart="10dp"
+        android:paddingBottom="20dp"/>
+
+
+    <TextView
+        android:id="@+id/gym_location_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="# 헬스장 위치"
+        android:textColor="#000000"
+        android:paddingBottom="5dp"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <Spinner
+            android:id="@+id/region_spinner"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/profile_intro_background"
+            android:paddingBottom="15dp"
+            android:padding="5.5dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"/>
+
+<!--        헬스장 위경도는 안보이게함-->
+        <TextView
+            android:id="@+id/gym_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="12dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="11dp"
+            android:layout_toStartOf="@id/gym_location_button"
+            android:layout_alignParentStart="true"
+            android:visibility="invisible"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/gym_location_button"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:text="위치 등록"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="4dp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/profileVisible_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="# 프로필 공개"
+        android:textColor="#000000"
+        android:paddingBottom="5dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupProfileVisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <RadioButton
+            android:id="@+id/radioYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="예" />
+
+        <RadioButton
+            android:id="@+id/radioNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아니오"
+            android:layout_marginStart="20dp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/favWorkouts_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="# 선호 운동"
+        android:textColor="#000000"
+        android:paddingBottom="5dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/fav_Workouts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="12dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="11dp"
+            android:layout_toStartOf="@id/fav_Workouts_button"
+            android:layout_alignParentStart="true"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/fav_Workouts_button"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:text="운동 선택"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rounded_button"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="8dp"/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/confirm_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="확인"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6795ED"
+            android:minHeight="48dp"
+            android:textSize="16sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cancel_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="취소"
+            android:textColor="#666666"
+            android:backgroundTint="#E0E0E0"
+            android:minHeight="48dp"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</LinearLayout>

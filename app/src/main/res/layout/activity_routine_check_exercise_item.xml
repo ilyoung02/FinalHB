@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+
+<!--    activity_routine_check_exercise.xml 파일-->
+
+    <LinearLayout
+        android:id="@+id/routineCheck_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/exerciseName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="운동 이름"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <!-- 세트 및 횟수 정보 -->
+        <TextView
+            android:id="@+id/setInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4세트 X 10회"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginStart="16dp" />
+    </LinearLayout>
+
+<!--    세트별 체크 항목 동적추가되는 레이아웃-->
+    <LinearLayout
+        android:id="@+id/setsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+    </LinearLayout>
+
+
+</LinearLayout>

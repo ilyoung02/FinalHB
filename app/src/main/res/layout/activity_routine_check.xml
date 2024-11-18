@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#ffffff" >
+
+<!--    activity_routine_check.xml 파일-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:id="@+id/todayDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wed 10.23"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:textColor="#6495ED"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/white_blue_box"
+            android:layout_gravity="center"
+            android:padding="6dp">
+
+            <ImageButton
+                android:id="@+id/workoutTimer_startBtn"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/icon_playbtn"
+                android:scaleType="centerCrop"
+                android:background="#ffffff"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/workoutTimerView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00:00"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:layout_marginLeft="6dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+<!--    activity_routine_check_exercise_item 이 동적으로 추가 되는 레이아웃-->
+    <ListView
+        android:id="@+id/routineCheck_listview"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+    </ListView>
+
+    <ImageButton
+        android:id="@+id/timer"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/img_3"
+        android:scaleType="centerCrop"
+        android:background="#ffffff"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_completeTodayWorkout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="운동 완료"
+        android:background="@drawable/rounded_btn"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

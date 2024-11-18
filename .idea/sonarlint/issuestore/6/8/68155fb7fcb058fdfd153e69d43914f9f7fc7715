@@ -1,0 +1,7 @@
+
+i
+java:S1604"(Make this anonymous inner class a lambda(òÔ£şûÿÿÿÿJ$1a5f226b-98b7-40b7-ab27-d6607f59e37b
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ã‰ü¯ùÿÿÿÿJ$783b1de0-f3e6-4545-ba6d-13092474207b
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(èé™J$e3a3932d-df9a-40a2-96a6-2fb617ec27bd
+£
+java:S1450"bRemove the "completeMakeRoutine" field and declare it as a local variable in the relevant methods.(ˆı±ÊıÿÿÿÿJ$758fb1d0-a356-43d5-9bbb-60707922e1e1

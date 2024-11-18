@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="#ffffff"
+    android:layout_marginBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="운동명"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="세트 수 x 반복 횟수" />
+
+    </LinearLayout>
+
+    <!-- 삭제 버튼 -->
+    <ImageButton
+        android:id="@+id/fix_deleteBtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/icon_delete"
+        android:scaleType="centerCrop"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_marginRight="13dp"
+        android:layout_toStartOf="@id/fix_editBtn"
+        android:layout_alignParentTop="true"
+        android:contentDescription="Delete" />
+
+    <!-- 수정 버튼 -->
+    <ImageButton
+        android:id="@+id/fix_editBtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/icon_edit"
+        android:scaleType="centerCrop"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="8dp"
+        android:layout_alignParentTop="true"
+        android:contentDescription="Edit" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+
+>
+java:S1604"(Make this anonymous inner class a lambda(ÀµÃ™
+>
+java:S1604."(Make this anonymous inner class a lambda(¾‡µà
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÂáÓï
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(èé™
+t
+java:S1450"YRemove the "backButton" field and declare it as a local variable in the relevant methods.(‡Å›„ûÿÿÿÿ
+s
+java:S1450"]Remove the "nextStepButton" field and declare it as a local variable in the relevant methods.(ÇÓâÀ
+V	java:S125'"<This block of commented-out lines of code should be removed.(©ÅÇ‡ıÿÿÿÿ

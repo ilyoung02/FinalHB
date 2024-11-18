@@ -1,0 +1,41 @@
+
+i
+java:S1604@"(Make this anonymous inner class a lambda(ğ«øÿÿÿÿJ$0965d33b-236d-41a7-8c14-d440c325c921
+c
+java:S1604\"(Make this anonymous inner class a lambda(ÍäÿCJ$81b299a9-b705-4e19-8873-ad4fd4b1712a
+e
+java:S1604–"(Make this anonymous inner class a lambda(ÖºªƒJ$8bf8ef31-015b-404f-b080-ddea42972391
+d
+java:S1604 "(Make this anonymous inner class a lambda(²¶ù1J$8f28446f-37ff-4322-b774-fcbef4b1603f
+e
+java:S1604¿"(Make this anonymous inner class a lambda(±€çëJ$0c41bb43-66b3-419a-b568-2ca95d19cc42
+e
+java:S1604Ï"(Make this anonymous inner class a lambda(Æ­ÜJ$703e373e-c04b-44d4-adc0-6b6231a6fd51
+ˆ	java:S101&"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÍÇ²ËJ$36923cc8-e1b7-4f0c-bff8-94cbecbd2498
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(èé™J$e941fdb0-46e8-4c3f-855e-239db199f3ef
+™
+java:S1192L"XDefine a constant instead of duplicating this literal "EditRoutine_AddExercise" 4 times.(ò˜÷ÌüÿÿÿÿJ$2cd47332-4468-429e-8259-e6f17bdd7424
+o
+java:S1659(".Declare "exerciseListView" on a separate line.(íñ‘«şÿÿÿÿJ$328ccf6d-77d9-4f68-9bd8-f59b3e890a2d
+e
+java:S1659*")Declare "closeButton" on a separate line.(ŞâJ$7ba3d1ea-92d9-4ce1-b3d8-9d8b07ed3788
+–
+java:S1450*"ZRemove the "closeButton" field and declare it as a local variable in the relevant methods.(ŞâJ$d94edeff-7e44-4f9e-b977-642572c06fe1
+™
+java:S1450*"]Remove the "completeButton" field and declare it as a local variable in the relevant methods.(ŞâJ$24c339a5-229d-4386-a4d3-085174db66ee
+m
+java:S3599|",Use another way to initialize this instance.(é²×şÿÿÿÿJ$2b10eb10-596e-4037-9454-c1b7ac4f2f1c
+š
+java:S1171|"YMove the contents of this initializer to a standard constructor or to field initializers.(é²×şÿÿÿÿJ$7073a03f-96bf-45de-949c-8a8f7de56dfe
+’
+java:S3252Ş"PUse static access with "android.view.ViewGroup$LayoutParams" for "MATCH_PARENT".(„¸ğÂşÿÿÿÿJ$3a77ccaf-93c4-4934-af18-63ebaa1d189b
+
+java:S3252ß"PUse static access with "android.view.ViewGroup$LayoutParams" for "WRAP_CONTENT".(ûë‰J$f126572c-badb-4853-9ed8-44182f114505
+
+java:S3252é"PUse static access with "android.view.ViewGroup$LayoutParams" for "WRAP_CONTENT".(œšÌ¾J$ece8e8e2-09f8-4267-996c-f9b274f76e9f
+
+java:S3252ó"PUse static access with "android.view.ViewGroup$LayoutParams" for "WRAP_CONTENT".(œšÌ¾J$11243a76-6fc8-4106-97fb-78c841eed272
+
+java:S3252ô"PUse static access with "android.view.ViewGroup$LayoutParams" for "WRAP_CONTENT".(ûë‰J$478bc392-7567-471e-9eed-59c7734c4224
+h
+java:S1068.",Remove this unused "BASE_URL" private field.(÷ÂÔJ$4d11f879-de04-4081-a80b-1ec4d03c9a05

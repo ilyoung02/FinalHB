@@ -1,0 +1,16 @@
+
+C
+java:S1604)"(Make this anonymous inner class a lambda(π«ψÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(€—οωÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(θι™
+h	java:S116"SRename this field "DdayView" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€®‡
+>
+java:S1659"(Declare "rankPoints" on a separate line.(€®‡
+m
+java:S1450"WRemove the "DdayView" field and declare it as a local variable in the relevant methods.(€®‡
+s
+java:S1450"]Remove the "completeButton" field and declare it as a local variable in the relevant methods.(Κθώ™
+o
+java:S1450"YRemove the "rankPoints" field and declare it as a local variable in the relevant methods.(€®‡
+H
+java:S1135("2Complete the task associated to this TODO comment.(Ι―Μ

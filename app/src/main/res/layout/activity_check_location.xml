@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+<!--    activity_check_location.xml 파일-->
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/icon_back"
+        android:scaleType="centerCrop"
+        android:layout_gravity="left"/>
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:text="운동 시작 전 위치인증을\n진행합니다"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:gravity="left"
+        android:drawablePadding="8dp" />
+
+    <fragment
+        android:id="@+id/currentLocation"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_currentLocation_complete"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="인증 완료"
+        android:background="@drawable/rounded_button"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="10dp" />
+
+
+
+</LinearLayout>

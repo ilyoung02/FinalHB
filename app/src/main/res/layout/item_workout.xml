@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+<!--    루틴 수정 시 운동항목 동적추가되는 item 디자인 파일-->
+
+    <TextView
+        android:id="@+id/workoutInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="운동 - 횟수 x 세트"
+        android:textSize="12sp"
+        android:textColor="#000000" />
+
+    <ImageButton
+        android:id="@+id/deleteButton"
+        android:layout_width="12dp"
+        android:layout_height="18dp"
+        android:src="@drawable/icon_xbutton"
+        android:scaleType="centerCrop"
+        android:background="#ffffff"
+        android:layout_marginRight="7dp"/>
+</LinearLayout>

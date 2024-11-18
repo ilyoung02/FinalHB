@@ -1,0 +1,10 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 클릭된 상태 -->
+    <item android:state_pressed="true" android:color="@color/colorPrimaryDark" /> <!-- 클릭 시 진한 색상 -->
+
+    <!-- 선택된 상태 -->
+    <item android:state_selected="true" android:color="@color/colorPrimaryDark" /> <!-- 선택된 상태 진한 색상 -->
+
+    <!-- 기본 상태 (선택되지 않음) -->
+    <item android:color="@color/colorPrimaryLight" /> <!-- 기본 상태 연한 색상 -->
+</selector>

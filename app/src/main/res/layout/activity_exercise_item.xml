@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/exerciseName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="운동 이름"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/exerciseInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="3세트 x 10회"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/btn_fixRoutineEx"
+        android:layout_width="25dp"
+        android:layout_height="23dp"
+        android:background="?attr/selectableItemBackground"
+        android:src="@drawable/icon_repair"
+        android:scaleType="centerCrop"/>
+</LinearLayout>

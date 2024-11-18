@@ -1,0 +1,17 @@
+
+>
+java:S1604-"(Make this anonymous inner class a lambda(ÀµÃ™
+>
+java:S16045"(Make this anonymous inner class a lambda(¾‡µà
+C
+java:S1604H"(Make this anonymous inner class a lambda(Şûªùúÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(©›¯òÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(èé™
+t
+java:S1450"YRemove the "backButton" field and declare it as a local variable in the relevant methods.(‡Å›„ûÿÿÿÿ
+s
+java:S1450"]Remove the "nextStepButton" field and declare it as a local variable in the relevant methods.(ÇÓâÀ
+H
+java:S1135"2Complete the task associated to this TODO comment.(×¹Öå
+F
+java:S1874W"0Remove this use of "getColor"; it is deprecated.(Ş³ğŸ

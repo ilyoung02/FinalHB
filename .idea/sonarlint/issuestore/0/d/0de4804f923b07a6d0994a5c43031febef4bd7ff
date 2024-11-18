@@ -1,0 +1,28 @@
+
+q
+java:S1604œ"(Make this anonymous inner class a lambda(“ùÄïûÿÿÿÿ8äıóï³2J$f919a081-7f04-482e-b5a5-aa03451cc915
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÍÙ¹ôúÿÿÿÿJ$77a7becb-885c-4302-93a9-930d03ae5012
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(èé™J$c1367bb0-024a-48a5-97ff-ee57d44d19c9
+q
+java:S1066ù"/Merge this if statement with the enclosing one.(¡˜íüÿÿÿÿJ$4d7b1b3f-8522-4195-9b17-2f6f19139934
+¢	java:S116""[Rename this field "btn_routineReset" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—çÙ˜ÿÿÿÿÿ8İ“ñï³2J$1c069c36-2b54-4abb-bb11-a5bebaddfa02
+v
+java:S1659"".Declare "btn_routineReset" on a separate line.(—çÙ˜ÿÿÿÿÿ8ã“ñï³2J$cfd2022c-a943-46c9-abe3-c53e4d73a4a1
+š
+java:S1450#"YRemove the "backButton" field and declare it as a local variable in the relevant methods.(‡Å›„ûÿÿÿÿJ$e7bef5e7-b032-4615-b6c8-32dee3d0c8d9
+—
+java:S1450""VRemove the "btnSave" field and declare it as a local variable in the relevant methods.(—çÙ˜ÿÿÿÿÿJ$71839ad8-5350-4973-8ed4-e5b349666696
+§
+java:S1450""_Remove the "btn_routineReset" field and declare it as a local variable in the relevant methods.(—çÙ˜ÿÿÿÿÿ8ÙÇñï³2J$6746009e-fe06-49d4-a112-9bfd0740bb7c
+¡
+java:S1450!"eRemove the "listViewFixRoutineList" field and declare it as a local variable in the relevant methods.(¥÷ˆÔJ$a9ab8064-dc13-467f-9275-b000518eae52
+g
+java:S3599,",Use another way to initialize this instance.(É¥ØJ$c4199698-6553-4a4f-babe-d122d1024250
+”
+java:S1171,"YMove the contents of this initializer to a standard constructor or to field initializers.(É¥ØJ$afff04d9-e905-4b23-930f-cbb993ede586
+‡
+java:S1874õ"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ŸŒ¹ÑJ$f9c544d3-b4e4-46d1-9054-a0207d9d0994
+
+java:S3776õ"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(ŸŒ¹ÑJ$0af86d05-a2f9-4d39-b61d-aba5acb0025d
+…
+java:S1874ú"CRemove this use of "getParcelableArrayListExtra"; it is deprecated.(¯…ĞÿÿÿÿÿJ$a3c5de2d-4480-4b54-9e4d-0f1b8cbe59a2

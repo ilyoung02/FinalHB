@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">HealthBuddyPro</string>
+
+    <!-- 지역 목록 -->
+    <string-array name="regions_array">
+        <item>대구 북구</item>
+        <item>대구 서구</item>
+        <item>대구 동구</item>
+        <item>대구 중구</item>
+        <item>대구 달서구</item>
+        <item>대구 수성구</item>
+        <item>대구 남구</item>
+        <item>대구 달성군</item>
+        <item>대구 군위군</item>
+    </string-array>
+
+
+    <!-- 운동 목표 예시 -->
+    <string-array name="workout_goals_array">
+        <item>체중 감량</item>
+        <item>근육 증가</item>
+        <item>지구력 향상</item>
+        <item>근력 향상</item>
+        <item>유연성 향상</item>
+        <item>건강 유지</item>
+        <item>심폐 능력 향상</item>
+        <item>부상 회복</item>
+        <item>균형 향상</item>
+    </string-array>
+    d
+    <!-- 주제 선택 예시 -->
+    <string-array name="topic_array">
+        <item>가슴</item>
+        <item>등</item>
+        <item>어깨</item>
+        <item>하체</item>
+    </string-array>
+
+    <!--    루틴 수정할때 요일 항목-->
+    <string-array name="days_of_week">
+        <item>월요일</item>
+        <item>화요일</item>
+        <item>수요일</item>
+        <item>목요일</item>
+        <item>금요일</item>
+        <item>토요일</item>
+        <item>일요일</item>
+    </string-array>
+
+    <!-- 위치 선택 예시 -->
+    <string-array name="location_array">
+        <item>중리동</item>
+        <item>수성구</item>
+        <item>달서구</item>
+    </string-array>
+
+    <!-- 카테고리 선택 예시 -->
+    <string-array name="category_array">
+        <item>성별무관</item>
+        <item>남성전용</item>
+        <item>여성전용</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <!-- Google Maps API Key -->
+    <string name="google_maps_key">AIzaSyCTS66zRXrKJeeZIjwbKAX4YuzYPHfhdBA</string>
+</resources>

@@ -1,0 +1,7 @@
+
+>
+java:S1604"(Make this anonymous inner class a lambda(­›Ο…
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(θι™
+o	java:S116"ZRename this field "btn_makeRoutine" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(΅”Υ
+t
+java:S1450"^Remove the "btn_makeRoutine" field and declare it as a local variable in the relevant methods.(΅”Υ

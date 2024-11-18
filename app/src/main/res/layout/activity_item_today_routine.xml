@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:layout_marginBottom="8dp">
+
+    <!-- 운동 부위 (bodyPart) -->
+    <TextView
+        android:id="@+id/bodyPart"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/body_part_background"
+        android:padding="6dp"
+        android:text="가슴"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:layout_marginEnd="10dp" />
+
+    <!-- 운동명 (workout) -->
+    <TextView
+        android:id="@+id/workoutName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="펙덱 플라이"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+</LinearLayout>

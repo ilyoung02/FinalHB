@@ -1,0 +1,9 @@
+
+g	java:S101%"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(œ‚„şÿÿÿÿ
+k	java:S117_"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞÓª¯ùÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(èé™
+t	java:S116'"ZRename this field "btn_addExercise" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îèÂŸşÿÿÿÿ
+y
+java:S1450'"^Remove the "btn_addExercise" field and declare it as a local variable in the relevant methods.(îèÂŸşÿÿÿÿ
+
+java:S1186€"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‡ÿÉùûÿÿÿÿ

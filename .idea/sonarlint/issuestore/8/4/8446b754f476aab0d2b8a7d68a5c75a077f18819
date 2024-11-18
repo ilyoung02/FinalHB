@@ -1,0 +1,31 @@
+
+>
+java:S1604$"(Make this anonymous inner class a lambda(µŞïõ
+>
+java:S1604/"(Make this anonymous inner class a lambda(ÿÎ¶®
+=
+java:S1604:"(Make this anonymous inner class a lambda(¦œ˜Z
+>
+java:S1604E"(Make this anonymous inner class a lambda(¾‡µà
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(®¤Ü÷
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(èé™
+?
+java:S1659")Declare "endDateText" on a separate line.(êĞÿÖ
+_
+java:S1659"JDeclare "endDateButton" and all following declarations on a separate line.(ŠË÷J
+C
+java:S1659"-Declare "selectedEndDate" on a separate line.(ÛõšÈ
+n
+java:S1450"YRemove the "backButton" field and declare it as a local variable in the relevant methods.(ŠË÷J
+q
+java:S1450"\Remove the "endDateButton" field and declare it as a local variable in the relevant methods.(ŠË÷J
+s
+java:S1450"^Remove the "startDateButton" field and declare it as a local variable in the relevant methods.(ŠË÷J
+H
+java:S1135"2Complete the task associated to this TODO comment.(”†ƒò
+H
+java:S1135"2Complete the task associated to this TODO comment.(”†ƒò
+B
+java:S1602T",Remove useless curly braces around statement(Ğåü²
+[
+java:S1612T"EReplace this lambda with method reference 'callback::onDateSelected'.(Ğåü²

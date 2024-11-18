@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- 1:1 매칭 버튼 일반 상태에서 텍스트 색상 -->
+    <color name="colorPrimaryLight">#CCCCCC</color> <!-- 연한 회색 -->
+    <!-- 1:1 매칭 버튼 클릭 및 선택 상태에서 텍스트 색상 -->
+    <color name="colorPrimaryDark">#333333</color> <!-- 진한 회색 -->
+
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="progressing_color">#6495ED</color>
+
+
+    <color name="gray">#E0E0E0</color>
+    <color name="blue">#90CAF9</color>
+
+    <!-- 단기 매칭의 캘린더 월, 일 선택된 항목의 텍스트 색상 -->
+    <color name="selected_text_color">#FF0000</color> <!-- 예: 진한 빨간색 -->
+    <!-- 단기 매칭의 캘린더 월, 일 선택되지 않은 항목의 텍스트 색상 -->
+    <color name="unselected_text_color">#808080</color> <!-- 예: 회색 -->
+</resources>

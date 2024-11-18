@@ -1,0 +1,37 @@
+
+i
+java:S16044"(Make this anonymous inner class a lambda(“íœÜıÿÿÿÿJ$6e93a885-3633-482b-b4c9-5543669b9f63
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(õš•ûÿÿÿÿJ$24e0a8f1-d79a-4f76-8863-2aba44093236
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(èé™J$a3f82bb4-7198-4404-981a-9ea905774ae5
+“
+java:S1192X"RDefine a constant instead of duplicating this literal "routine_list_item" 3 times.(‘¢òÏıÿÿÿÿJ$bc982ef1-c0d3-458f-a506-c85669d450a3
+•	java:S116"[Rename this field "edit_routinelist" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°±õJ$016c8ec7-f277-47d4-9819-3ed18cf17337
+d
+java:S1659"(Declare "statusText" on a separate line.(Å·³ËJ$37f4f4e3-af32-45d2-8e0b-d40d04a2257d
+i
+java:S1659".Declare "edit_routinelist" on a separate line.(°±õJ$50ce32fb-c0c3-4661-b683-7c55dafd58cf
+„
+java:S1659"CDeclare "userId" and all following declarations on a separate line.(ıÛ²«ıÿÿÿÿJ$94eefb32-78a6-4d3c-b310-b868b3c80aed
+›
+java:S1450"`Remove the "deleteRoutineList" field and declare it as a local variable in the relevant methods.(°±õJ$5758e23a-e43e-4750-ac2d-a827d5f9dbbe
+š
+java:S1450"_Remove the "edit_routinelist" field and declare it as a local variable in the relevant methods.(°±õJ$bdfee1cb-7250-42a4-9756-c474a2da7964
+’
+java:S1450"VRemove the "hbdName" field and declare it as a local variable in the relevant methods.(Å·³ËJ$99356440-6469-4a87-afb7-0212678d8489
+m
+java:S1135 "2Complete the task associated to this TODO comment.(©¤¿|J$fb654236-4225-45d0-b91f-1593e8b9151c
+|	java:S125C"<This block of commented-out lines of code should be removed.(ñšƒØÿÿÿÿÿJ$c60d55b5-3a12-4d63-8df4-ee5fec48a409
+w
+java:S1117e";Rename "hbdName" which hides the field declared at line 27.(›¨ŠºJ$194c0688-8ea6-413c-9b3d-6c39057f9e14
+r
+java:S1874€"0Remove this use of "getColor"; it is deprecated.(Í¢»úÿÿÿÿJ$44b18cfd-c8da-42bb-a556-d3dd6881ecd9
+m
+java:S1874ƒ"0Remove this use of "getColor"; it is deprecated.(ÉÊÛJ$18cb1b8c-6ce4-4b79-9d98-7b91cdb42c68
+x	java:S125’"<This block of commented-out lines of code should be removed.(‚ğ¹ÕJ$d3a22f56-d611-4223-aa0d-8213ff6af59b
+w	java:S125 "<This block of commented-out lines of code should be removed.(¶£€hJ$ebf251ff-b39e-485d-9311-0715349a09f8
+n
+java:S1135 "2Complete the task associated to this TODO comment.(¶£€hJ$b90d3bf0-2b23-43a8-835f-8f9b1376ad78
+p
+java:S1068"5Remove this unused "deleteRoutineList" private field.(°±õJ$5672f474-3780-4eb9-9857-648dfbea4fa8
+n
+java:S1068"-Remove this unused "routineId" private field.(ıÛ²«ıÿÿÿÿJ$e9b6bd06-e3cb-4f5c-91e7-e70328770b48

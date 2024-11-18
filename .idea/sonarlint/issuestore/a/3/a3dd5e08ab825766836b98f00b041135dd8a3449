@@ -1,0 +1,9 @@
+
+Œ	java:S117`"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢×û J$03222e78-d4ce-439b-bed6-9a2a8673f94f
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(èé™J$56c62453-69be-4aaf-a0db-e9faea3bb652
+
+java:S1192Y"SDefine a constant instead of duplicating this literal "isRoutineComplete_" 3 times.(×¸¸ØJ$d2018437-b776-4ceb-aa6e-1d9674a9ea0b
+
+java:S1192("MDefine a constant instead of duplicating this literal "RoutinePrefs" 3 times.(‡ú›çşÿÿÿÿJ$d34d0882-fce7-459d-ac64-a7d789aa6122
+”
+java:S1450"XRemove the "routineId" field and declare it as a local variable in the relevant methods.(ˆÂµ‹J$16bf0602-5fa6-4c3e-992b-b99c16e276c5

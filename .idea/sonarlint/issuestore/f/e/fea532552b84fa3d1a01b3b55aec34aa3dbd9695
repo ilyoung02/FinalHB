@@ -1,0 +1,7 @@
+
+>
+java:S1604"(Make this anonymous inner class a lambda(çëœÁ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Àè£€ùÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(èé™
+o
+java:S1450"YRemove the "addWorkout" field and declare it as a local variable in the relevant methods.(êÉì

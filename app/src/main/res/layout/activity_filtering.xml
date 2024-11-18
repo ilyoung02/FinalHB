@@ -1,0 +1,175 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <!-- Title Section -->
+    <TextView
+        android:id="@+id/title_matching_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="매칭 필터"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Grouping all filters under a LinearLayout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_matching_filter"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <!-- Age Label -->
+        <TextView
+            android:id="@+id/label_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="나이"
+            android:textSize="16sp"
+            android:textColor="#000" />
+        <!-- Age Range Slider -->
+        <com.google.android.material.slider.RangeSlider
+            android:id="@+id/age_range_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:valueFrom="20"
+            android:valueTo="100"
+            android:stepSize="1" />
+
+        <!-- Gender Label -->
+        <TextView
+            android:id="@+id/label_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="성별"
+            android:textSize="16sp"
+            android:textColor="#000" />
+
+        <!-- Gender Radio Buttons -->
+        <RadioGroup
+            android:id="@+id/gender_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="남자"
+                android:checked="true"
+                android:buttonTint="@color/black" />
+
+            <RadioButton
+                android:id="@+id/radio_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="여자" />
+        </RadioGroup>
+
+        <!-- Gym Label -->
+        <TextView
+            android:id="@+id/label_gym"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="등록된 헬스장"
+            android:textSize="16sp"
+            android:textColor="#000" />
+
+        <!-- Registered Gym Dropdown -->
+        <Spinner
+            android:id="@+id/gym_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+
+        <!-- Region Label -->
+        <TextView
+            android:id="@+id/label_region"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="사는 지역"
+            android:textSize="16sp"
+            android:textColor="#000" />
+
+        <!-- Region Input -->
+        <EditText
+            android:id="@+id/region_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="사는 지역" />
+
+        <!-- Change Gym Availability Label -->
+        <TextView
+            android:id="@+id/label_change_gym"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="헬스장 변경 의향"
+            android:textSize="16sp"
+            android:textColor="#000" />
+
+        <!-- Change Gym Availability Toggle -->
+        <RadioGroup
+            android:id="@+id/change_gym_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_gym_possible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="가능"
+                android:checked="true"
+                android:buttonTint="@color/black" />
+
+            <RadioButton
+                android:id="@+id/radio_gym_impossible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="불가능" />
+        </RadioGroup>
+
+        <!-- Exercise Type Label -->
+        <TextView
+            android:id="@+id/label_exercise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="운동 종류"
+            android:textSize="16sp"
+            android:textColor="#000" />
+
+        <!-- Exercise Type Dropdown -->
+        <Spinner
+            android:id="@+id/exercise_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+
+        <!-- Apply Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/apply_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6795ED"
+            android:layout_marginTop="16dp"
+            android:text="적용"
+            android:layout_gravity="end" />
+    </LinearLayout>
+
+</RelativeLayout>

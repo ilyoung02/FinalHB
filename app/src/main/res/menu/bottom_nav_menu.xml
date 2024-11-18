@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_fitness"
+        android:icon="@drawable/fitness"
+        android:title="운동" />
+
+    <item
+        android:id="@+id/navigation_gym"
+        android:icon="@drawable/gps"
+        android:title="헬스장" />
+
+    <item
+        android:id="@+id/navigation_match"
+        android:icon="@drawable/matching"
+        android:title="매칭" />
+
+    <item
+        android:id="@+id/navigation_community"
+        android:icon="@drawable/community"
+        android:title="커뮤니티" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/profile"
+        android:title="프로필" />
+</menu>

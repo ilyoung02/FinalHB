@@ -1,0 +1,39 @@
+
+C
+java:S1604>"(Make this anonymous inner class a lambda(ğ«øÿÿÿÿ
+=
+java:S1604I"(Make this anonymous inner class a lambda(ÍäÿC
+?
+java:S1604ƒ"(Make this anonymous inner class a lambda(Öºªƒ
+>
+java:S1604"(Make this anonymous inner class a lambda(²¶ù1
+?
+java:S1604¬"(Make this anonymous inner class a lambda(±€çë
+?
+java:S1604¼"(Make this anonymous inner class a lambda(Æ­Ü
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(èé™
+I
+java:S1659'".Declare "exerciseListView" on a separate line.(íñ‘«şÿÿÿÿ
+?
+java:S1659)")Declare "closeButton" on a separate line.(Şâ
+p
+java:S1450)"ZRemove the "closeButton" field and declare it as a local variable in the relevant methods.(Şâ
+s
+java:S1450)"]Remove the "completeButton" field and declare it as a local variable in the relevant methods.(Şâ
+G
+java:S3599i",Use another way to initialize this instance.(é²×şÿÿÿÿ
+t
+java:S1171i"YMove the contents of this initializer to a standard constructor or to field initializers.(é²×şÿÿÿÿ
+l
+java:S3252Ì"PUse static access with "android.view.ViewGroup$LayoutParams" for "MATCH_PARENT".(„¸ğÂşÿÿÿÿ
+g
+java:S3252Í"PUse static access with "android.view.ViewGroup$LayoutParams" for "WRAP_CONTENT".(ûë‰
+g
+java:S3252×"PUse static access with "android.view.ViewGroup$LayoutParams" for "WRAP_CONTENT".(œšÌ¾
+g
+java:S3252á"PUse static access with "android.view.ViewGroup$LayoutParams" for "WRAP_CONTENT".(œšÌ¾
+g
+java:S3252â"PUse static access with "android.view.ViewGroup$LayoutParams" for "WRAP_CONTENT".(ûë‰
+W	java:S125ù"<This block of commented-out lines of code should be removed.(¯Øó›ıÿÿÿÿ
+B
+java:S1068-",Remove this unused "BASE_URL" private field.(÷ÂÔ

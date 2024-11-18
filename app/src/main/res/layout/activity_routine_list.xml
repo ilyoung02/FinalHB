@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:padding="16dp"
+    android:layout_marginTop="20dp">
+
+<!--    activity_routine_list.xml 파일-->
+
+    <ImageButton
+        android:id="@+id/backbtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/icon_back"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="루틴 목록"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+    <ListView
+        android:id="@+id/routineListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:layout_marginBottom="17dp"
+        android:padding="30dp"/>
+
+    <Button
+        android:id="@+id/btn_createRoutine"
+        android:layout_width="100dp"
+        android:layout_height="37dp"
+        android:text="루틴 생성하기"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="right"/>
+</LinearLayout>

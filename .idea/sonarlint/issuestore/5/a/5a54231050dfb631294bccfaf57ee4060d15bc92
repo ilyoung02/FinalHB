@@ -1,0 +1,18 @@
+
+C
+java:S1604'"(Make this anonymous inner class a lambda(ÌûªÚûÿÿÿÿ
+>
+java:S1604/"(Make this anonymous inner class a lambda(ÿá„å
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¬ïÈ‚
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(èé™
+v	java:S116"\Rename this field "btn_createRoutine" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î»ËËıÿÿÿÿ
+q
+java:S1450"VRemove the "adapter" field and declare it as a local variable in the relevant methods.(ş­áÜùÿÿÿÿ
+q
+java:S1450"VRemove the "backbtn" field and declare it as a local variable in the relevant methods.(æ¾çüÿÿÿÿ
+{
+java:S1450"`Remove the "btn_createRoutine" field and declare it as a local variable in the relevant methods.(Î»ËËıÿÿÿÿ
+r
+java:S1450"WRemove the "listView" field and declare it as a local variable in the relevant methods.(¯¤½ñûÿÿÿÿ
+p
+java:S1450"ZRemove the "routineList" field and declare it as a local variable in the relevant methods.(¸¥Î—

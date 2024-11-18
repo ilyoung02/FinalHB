@@ -1,0 +1,36 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(èé™
+a
+java:S1659""FDeclare "todayDate" and all following declarations on a separate line.(Åñ°ƒşÿÿÿÿ
+x
+java:S1450!"]Remove the "btnRoutineList" field and declare it as a local variable in the relevant methods.(°Œ¥¹øÿÿÿÿ
+s
+java:S1450""XRemove the "todayDate" field and declare it as a local variable in the relevant methods.(Åñ°ƒşÿÿÿÿ
+‚
+java:S5854H"gUse the CANON_EQ flag with "Pattern.compile(pattern, CANON_EQ).matcher(input).replaceAll(replacement)".(È•ş†úÿÿÿÿ
+c
+java:S5361H"HReplace this call to "replaceAll()" by a call to the "replace()" method.(È•ş†úÿÿÿÿ
+‚
+java:S5854G"gUse the CANON_EQ flag with "Pattern.compile(pattern, CANON_EQ).matcher(input).replaceAll(replacement)".(­×¢ùÿÿÿÿÿ
+c
+java:S5361G"HReplace this call to "replaceAll()" by a call to the "replace()" method.(­×¢ùÿÿÿÿÿ
+‚
+java:S5854F"gUse the CANON_EQ flag with "Pattern.compile(pattern, CANON_EQ).matcher(input).replaceAll(replacement)".(œêŒâÿÿÿÿÿ
+c
+java:S5361F"HReplace this call to "replaceAll()" by a call to the "replace()" method.(œêŒâÿÿÿÿÿ
+}
+java:S5854E"gUse the CANON_EQ flag with "Pattern.compile(pattern, CANON_EQ).matcher(input).replaceAll(replacement)".(£ı
+^
+java:S5361E"HReplace this call to "replaceAll()" by a call to the "replace()" method.(£ı
+‚
+java:S5854D"gUse the CANON_EQ flag with "Pattern.compile(pattern, CANON_EQ).matcher(input).replaceAll(replacement)".(Üûş²ûÿÿÿÿ
+c
+java:S5361D"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Üûş²ûÿÿÿÿ
+‚
+java:S5854C"gUse the CANON_EQ flag with "Pattern.compile(pattern, CANON_EQ).matcher(input).replaceAll(replacement)".(ÀæĞ®üÿÿÿÿ
+c
+java:S5361C"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ÀæĞ®üÿÿÿÿ
+‚
+java:S5854B"gUse the CANON_EQ flag with "Pattern.compile(pattern, CANON_EQ).matcher(input).replaceAll(replacement)".(ŒÛºøÿÿÿÿ
+c
+java:S5361B"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ŒÛºøÿÿÿÿ

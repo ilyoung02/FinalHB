@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/routineContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/note_background"
+    android:padding="10dp"
+    android:layout_marginBottom="20dp">
+
+<!--    activity_add_workout_item.xml 파일-->
+
+    <TextView
+        android:id="@+id/selectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="선택 요일"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp" />
+
+<!--    동적으로 추가되는 레이아웃-->
+    <LinearLayout
+        android:id="@+id/exerciseLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/addWorkout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+ 운동 추가하기"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:padding="8dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:layout_gravity="right"/>
+</LinearLayout>

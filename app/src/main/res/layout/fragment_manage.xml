@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingBottom="24dp"
+        android:layout_marginBottom="50dp">
+
+        <!-- Matching Text -->
+        <TextView
+            android:id="@+id/matching_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="매칭"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_gravity="center"/>
+
+        <!-- Days Count -->
+        <TextView
+            android:id="@+id/matching_days"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:paddingLeft="8dp"/>
+
+        <!-- "일째" Text -->
+        <TextView
+            android:id="@+id/matching_suffix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="일째"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:paddingLeft="4dp"/>
+    </LinearLayout>
+
+
+    <!-- Group Info -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:layout_marginBottom="40dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/user1_icon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/icon_person"
+                android:contentDescription="User 1 Icon"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/user1_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="홍길동"
+                android:textSize="16sp"
+                android:textColor="#4484FF"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/group_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon_connection"
+            android:contentDescription="Group Icon"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/user2_icon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/icon_person"
+                android:contentDescription="User 2 Icon"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/user2_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="김현우"
+                android:textSize="16sp"
+                android:textColor="#4484FF"
+                android:gravity="center"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/note_background">
+
+        <ImageButton
+            android:id="@+id/btn_hbdQuit"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/icon_disconnect"
+            android:scaleType="centerCrop"
+            android:background="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="헬스버디 그만두기"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#FF3333" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+
+b	java:S101'"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Æ¶ğû
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(èé™
+u	java:S116-"[Rename this field "RADIUS_IN_METERS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä’×Šûÿÿÿÿ
+<
+java:S1170-"!Make this final field static too.(ä’×Šûÿÿÿÿ
+t
+java:S1450)"YRemove the "backButton" field and declare it as a local variable in the relevant methods.(‡Å›„ûÿÿÿÿ
+P	java:S125L"<This block of commented-out lines of code should be removed.(ü¸î
+V	java:S125o"<This block of commented-out lines of code should be removed.(ÄÎ”…øÿÿÿÿ
+s
+java:S3252Á"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(»¤è«ıÿÿÿÿ
+n
+java:S3252Â"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(§Ú¶
+s
+java:S3252Ò"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(îÄ¤¸üÿÿÿÿ
+s
+java:S3252à"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(îÄ¤¸üÿÿÿÿ
+f
+java:S1874û"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(Ó»×¶şÿÿÿÿ
